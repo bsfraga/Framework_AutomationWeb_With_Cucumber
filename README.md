@@ -1,4 +1,4 @@
-# Framework Web - Java
+# Framework Web With Cucumber PT-BR - Java 
 
 ## Usage
 #### Package Core
@@ -72,15 +72,20 @@ public class ExampleSteps extends ExamplePage{
 
 #### Package Util
 This package contains all the generics methods from the framework. Feel free to add more methods if you have to, just remember to add a JavaDoc Commentary explaining what the method executes by adding /** and pressing [Enter] before the method.
- 
+
+## Update
+Added Gherkin dependencie so Cucumber can be used with another languages.
+More about 
+
+
 ## Dependencies
 This version is making use of:
 - [Selenium 3.141](https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java)
 - [jUnit 4.12](https://mvnrepository.com/artifact/junit/junit);
 - [commons-io 2.6](https://mvnrepository.com/artifact/commons-io/commons-io);
 - Cucumber ([core](https://mvnrepository.com/artifact/io.cucumber/cucumber-core) - [java](https://mvnrepository.com/artifact/io.cucumber/cucumber-java) - [junit](https://mvnrepository.com/artifact/io.cucumber/cucumber-junit) - [jvm-deps](https://mvnrepository.com/artifact/io.cucumber/cucumber-jvm-deps) - [reporting](https://mvnrepository.com/artifact/net.masterthought/cucumber-reporting));
+- [Gherkin 5.1.0](https://mvnrepository.com/artifact/io.cucumber/gherkin/5.1.0);
+- [Gherkin 2.12.2](https://mvnrepository.com/artifact/info.cukes/gherkin/2.12.2);
 - [Selenium Shutterbug 0.9.2](https://mvnrepository.com/artifact/com.assertthat/selenium-shutterbug);
-
-
 
 Please make sure to update tests as appropriate.
