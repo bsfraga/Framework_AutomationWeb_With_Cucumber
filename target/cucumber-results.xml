@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="34.245198">
+<testcase classname="Exemplo de uso do cucumber em portugues em conjunto com Selenium" name="Acessar pagina do Google" time="10.122466">
+<system-out><![CDATA[Dado que acesso a pagina do Google..........................................passed
+Então valido se a pagina do Google foi acessada.............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Exemplo de uso do cucumber em portugues em conjunto com Selenium" name="Acessar pagina do Youtube" time="24.122732">
+<system-out><![CDATA[Dado que acesso a pagina do Youtube.........................................passed
+Então valido se a pagina do Youtube foi acessada............................passed
+]]></system-out>
+</testcase>
+</testsuite>
