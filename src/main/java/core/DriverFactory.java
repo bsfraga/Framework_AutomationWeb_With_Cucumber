@@ -23,7 +23,6 @@ public class DriverFactory {
 				driver = new FirefoxDriver();
 				break;
 			case EDGE:
-				System.setProperty("webdriver.edge.driver", "./src/main/resources/drivers/msedgedriver.exe");
 				driver = new EdgeDriver();
 				break;
 			}
